@@ -13,3 +13,8 @@ Data import and handling
 data_functions.get_data()
 data_functions.interpolate_data()
 ```
+
+Bootstrapping
+```python
+analysis_functions.bootstrap()
+```
