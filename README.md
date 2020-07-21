@@ -6,8 +6,6 @@
 Running the main.py in the root folder will output the corresponding curves
 
 ### Working Features
-
-### CurrentWIP
 Data import and handling
 ```python
 data_functions.get_data()
@@ -18,3 +16,5 @@ Bootstrapping
 ```python
 analysis_functions.bootstrap()
 ```
+
+### CurrentWIP

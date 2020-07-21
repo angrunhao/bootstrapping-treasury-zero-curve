@@ -17,3 +17,6 @@ data = data_functions.get_data(path = currentPath)
 interpolatedData = data_functions.interpolate_data(data = data)
 
 spotData, forwardData = analysis_functions.bootstrap_dataframe(interpolatedData)
+
+ymax = max([max(spotData.max()),max(forwardData.max())])
+ymin = min([min(spotData.min()),min(forwardData.min())])
