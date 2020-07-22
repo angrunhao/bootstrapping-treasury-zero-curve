@@ -1,3 +1,4 @@
+
 import seaborn as sns
 import matplotlib.pyplot as plt
 
@@ -26,3 +27,4 @@ def plot_corrGraph(spotData, forwardData, ymin, ymax):
 #    fig.savefig(staticPath + graphPath, bbox_inches = "tight")
 
     return fig, staticGraphPath
+
