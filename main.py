@@ -8,6 +8,7 @@ import os
 from bootstrapping_treasury_zero_curve import data_functions
 from bootstrapping_treasury_zero_curve import analysis_functions
 
+
 """
 HARDCODED VARIABLES
 """
@@ -20,3 +21,5 @@ spotData, forwardData = analysis_functions.bootstrap_dataframe(interpolatedData)
 
 ymax = max([max(spotData.max()),max(forwardData.max())])
 ymin = min([min(spotData.min()),min(forwardData.min())])
+
+

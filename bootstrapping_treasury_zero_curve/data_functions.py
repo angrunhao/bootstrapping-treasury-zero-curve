@@ -11,7 +11,8 @@ import pandas as pd
 HARDCODED VALUES
 """
 #only used when testing
-parentPath = os.path.dirname(os.getcwd())
+#parentPath = os.path.dirname(os.getcwd())
+parentPath = os.getcwd()
 
 def get_data(path = parentPath):
     """
