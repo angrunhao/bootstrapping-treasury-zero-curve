@@ -1,6 +1,6 @@
 ## Bootstrapping Treasury Zero Curve
 
-"bootstrapping-treasury-zero-curve" is an algorithm that calculates the spot/zero curves and by extension the implied forward rate curves from the treasury yield curve". The project also adds a Dash-enabled visualisation to observe the evolution of the spot / forward curves through time
+"bootstrapping-treasury-zero-curve" is an algorithm that calculates the spot/zero curves and by extension the implied forward rate curves from the treasury yield curve". The project also adds a Dash-enabled visualisation to observe the evolution of the spot / forward curves through time, both playing in real time and selectable modes
 
 ### Data
 Data is taken from public sources (Yahoo! Finance). It comprises the YTMs of various Treasury maturities throughout the year 2019.
